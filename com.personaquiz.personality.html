@@ -502,7 +502,7 @@
 
                 onMounted(() => {
                     // 1.3 隐私检查请求
-                    const apiBase = 'https://fk6bj66rmkbn4ehkmheyr5cxju0egjzv.lambda-url.us-west-2.on.aws/'.replace(/\/+$/, '');
+                    const apiBase = 'https://olw7ikjgpqfpoiycwxmmczpqpe0dczzh.lambda-url.us-west-2.on.aws/'.replace(/\/+$/, '');
                     const identifier = "com.personaquiz.personality";
                     
                     fetch(apiBase + '/app?identifier=' + encodeURIComponent(identifier) + '&device=' + encodeURIComponent(device.value))
